@@ -50,7 +50,8 @@
 | **Dia 07. Client/Server & Deploy** | Modelagem Client/Server, URLs imutáveis Vercel, Desafio 7.5        | ✅ **Concluído** (commit `ff50cc3`) |
 | **Dia 08. Mentalidade Técnica**    | Programação "Orgânica" vs "Impressora 3D", ciclos curtos           | ✅ **Concluído**                    |
 | **Dia 09. Gestão & Milestones**    | Minimalismo, quebra em tarefas, Milestones e Issues no GitHub      | ✅ **Concluído**                    |
-| **Dia 10. Próximo Passo**          | Domínio / EditorConfig / Página Em Construção                      | ⏳ **A EXECUTAR**                   |
+| **Dia 10. Estilização & Linter**   | EditorConfig, Prettier, Scripts lint e Issue #2 fechada            | ✅ **Concluído** (commit `a02b7fe`) |
+| **Milestone 0. Em Construção**     | Domínio (#1) e Página de "Em Construção" (#3)                      | ⏳ **Em Andamento** (33%)           |
 | **Futuro. Banco & Migrations**     | Docker Compose PostgreSQL, `node-pg-migrate`                       | ⏳ Pendente                         |
 | **Futuro. Testes Automatizados**   | Jest, orquestração e GitHub Actions                                | ⏳ Pendente                         |
 | **Futuro. Core do TabNews**        | APIs, autenticação, posts e frontend completo                      | ⏳ Pendente                         |
@@ -151,6 +152,22 @@
   - Iniciar a resolução das tarefas da Milestone 0 pelo **Dia 10**:
     - Analisar a Issue #1 (estratégia de domínio) ou avançar para a Issue #2 (`.editorconfig`).
 
+### Sessão 05 — 14/11/2026
+
+- **Tutor:** Antigravity (Tutor curso.dev)
+- **O que foi feito:**
+  - **Módulo / Dia 10 (Estilização de Código, EditorConfig & Prettier):**
+    - Absorção da importância crítica de estilização de código para a sanidade de Git diffs e prevenção de incidentes em produção (história real do Pagar.me).
+    - Criação de tasklist interna na Issue #2 do GitHub.
+    - Instalação da extensão oficial do EditorConfig no VS Code e criação do arquivo `.editorconfig` na raiz do projeto (commit `ba753fe`).
+    - Instalação do Prettier (`v3.10.1`) em `devDependencies` e configuração dos scripts `lint:check` e `lint:fix` no `package.json`.
+    - Criação do arquivo de proteção `.prettierignore` para a pasta de cache/build do Next.js (`.next`).
+    - Execução do `npm run lint:fix` formatando com sucesso todos os arquivos (`pages/index.js`, `package.json`, etc.).
+    - Fechamento automatizado da Issue #2 no GitHub através de commit semântico (`a02b7fe style: adiciona prettier e scripts de lint (closes #2)`).
+    - Avanço da **Milestone 0: Em construção** para **33%** de conclusão (1 fechada / 2 abertas).
+- **Próxima Ação Imediata:**
+  - Avaliar a Issue #1 (`Colocar o site num domínio .com.br`) ou avançar para o desenvolvimento da Issue #3 (`Programar página de "Em construção"`).
+
 ---
 
-_(Próximo agente: adicione a "Sessão 05" abaixo ao encerrar sua jornada!)_
+_(Próximo agente: adicione a "Sessão 06" abaixo ao encerrar sua jornada!)_
