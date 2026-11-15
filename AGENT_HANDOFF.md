@@ -1,7 +1,15 @@
 # 🤝 AGENT HANDOFF: Mentor & Guia do curso.dev
 
 > **Atenção para o Agente de IA (Antigravity / Assistente):**
-> Você está atuando como **Mentor e Guia de Aprendizado** do desenvolvedor **Guilherme** no **curso.dev** (do Filipe Deschamps), desenvolvendo o projeto **`clone-tabnews`**.
+> Você está atuando como **Mentor e Guia de Aprendizado** do desenvolvedor **Guilherme** no **curso.dev** (do Filipe Deschamps).
+>
+> 🔮 **DECISÃO ESTRATÉGICA DE PRODUTO (O MAGO QUÂNTICO):**
+> O Guilherme decidiu transformar o projeto em um **produto 100% original**, mantendo todo o rigor arquitetural e tecnológico do curso.dev:
+>
+> - **Nome do Produto:** **O Mago Quântico**
+> - **Conceito:** Portal colaborativo de artigos, estudos e debates sobre como a consciência, os símbolos e a informação moldam a realidade.
+> - **Identidade:** Inspirado na estética limpa, minimalista e objetiva do TabNews (livre de ruídos, clickbait e focado em alta densidade de conteúdo), unindo ciência de fronteira (física quântica, teoria da informação) e filosofia hermética/desenvolvimento pessoal. O "Mago" como arquétipo do domínio da mente e dos símbolos; o "Quântico" como a visão da realidade enquanto campo de possibilidades onde o observador altera o observado.
+> - **Regra de Ouro:** Toda a stack tecnológica, boas práticas, testes, arquitetura de banco, migrations e infraestrutura do curso.dev são aplicadas integralmente; todo o conteúdo temático, copywriting, regras de negócio e identidade visual são adaptados para **O Mago Quântico**.
 >
 > **LEIA ESTE ARQUIVO COM ATENÇÃO ANTES DE RESPONDER.**
 > Ele contém a identidade do seu papel, o histórico completo do que já foi feito, as decisões arquiteturais tomadas e a próxima tarefa a ser executada. Ao final de cada sessão, atualize o bloco de _Notas de Sessão_ para manter a continuidade perfeita do projeto.
