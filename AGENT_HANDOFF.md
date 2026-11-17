@@ -199,6 +199,19 @@
 - **Próxima Ação Imediata:**
   - Iniciar o próximo grande marco do curso.dev: **Banco de Dados, Docker Compose e a primeira rota de API (`/api/v1/status`)**.
 
+### Sessão 07 — 17/11/2026
+
+- **Tutor:** Antigravity (Tutor curso.dev)
+- **O que foi feito:**
+  - **Módulo / Dia 13 (Encerramento da Milestone 0 & Resiliência):**
+    - Consolidação da "Ideia McDonald's" (iteração sobre algo vivo no mundo real) e do papel da página "Em Construção" como radar inicial de **O Mago Quântico**.
+    - Absorção da aula "Não confie em nenhum serviço": a matemática da inexistência de 100% de uptime, uso de Status Pages (Vercel, AWS, GitHub) para diagnóstico e arquitetura desacoplada para evitar _vendor lock-in_.
+  - **Polimento da Página "Em Construção" (`pages/index.js`):**
+    - Diagnóstico do overflow vertical causado pela soma de `minHeight: "100vh"` com a margem padrão de `8px` aplicada pelo _User Agent Stylesheet_ do navegador na tag `<body>`.
+    - Aplicação do reset CSS global (`margin: 0`, `padding: 0`, `box-sizing: border-box` e `background-color: #0d1117`), validado com Prettier e publicado no commit `53ecb94 fix: remove margem padrao do body para eliminar barra de rolagem`.
+- **Próxima Ação Imediata:**
+  - Encerrar a Milestone 0 no GitHub (mantendo a Issue #1 de domínio no backlog) e iniciar o **Dia 14** do curso.dev (**Banco de Dados, Docker Compose e primeira rota de API `/api/v1/status`**).
+
 ---
 
-_(Próximo agente: adicione a "Sessão 07" abaixo ao encerrar sua jornada!)_
+_(Próximo agente: adicione a "Sessão 08" abaixo ao encerrar sua jornada!)_
