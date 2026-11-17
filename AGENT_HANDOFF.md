@@ -59,7 +59,10 @@
 | **Dia 08. Mentalidade Técnica**    | Programação "Orgânica" vs "Impressora 3D", ciclos curtos           | ✅ **Concluído**                    |
 | **Dia 09. Gestão & Milestones**    | Minimalismo, quebra em tarefas, Milestones e Issues no GitHub      | ✅ **Concluído**                    |
 | **Dia 10. Estilização & Linter**   | EditorConfig, Prettier, Scripts lint e Issue #2 fechada            | ✅ **Concluído** (commit `a02b7fe`) |
-| **Milestone 0. Em Construção**     | Domínio (#1) e Página de "Em Construção" (#3)                      | ⏳ **Em Andamento** (33%)           |
+| **Dia 11. Teoria de DNS**          | Resolução da raiz ao autoritativo, `dig +trace`, Níveis 1 e 2      | ✅ **Concluído**                    |
+| **Dia 12. Domínio Próprio**        | Registro.br + Vercel (Issue #1 pausada temporariamente)            | ⏸️ **Pausado (Backlog)**            |
+| **Dia 13. Em Construção**          | Página do Mago Quântico no ar e Issue #3 fechada                   | ✅ **Concluído** (commit `d3cee7e`) |
+| **Próximo. Banco & Docker**        | Docker Compose PostgreSQL, variáveis de ambiente, `/api/v1/status` | ⏳ **A EXECUTAR**                   |
 | **Futuro. Banco & Migrations**     | Docker Compose PostgreSQL, `node-pg-migrate`                       | ⏳ Pendente                         |
 | **Futuro. Testes Automatizados**   | Jest, orquestração e GitHub Actions                                | ⏳ Pendente                         |
 | **Futuro. Core do TabNews**        | APIs, autenticação, posts e frontend completo                      | ⏳ Pendente                         |
@@ -176,6 +179,26 @@
 - **Próxima Ação Imediata:**
   - Avaliar a Issue #1 (`Colocar o site num domínio .com.br`) ou avançar para o desenvolvimento da Issue #3 (`Programar página de "Em construção"`).
 
+### Sessão 06 — 15-16/11/2026
+
+- **Tutor:** Antigravity (Tutor curso.dev)
+- **O que foi feito:**
+  - **Módulo / Dia 11 (DNS a Fundo - Teoria e Prática de Resolução):**
+    - Desmistificação da árvore de DNS da direita para a esquerda (`.` ➔ `.br` ➔ autoritativo ➔ IP).
+    - Execução do Desafio Nível 1 com `dig +trace tabnews.com.br` no Ubuntu, observando os 3 saltos reais (Root servers, Registro.br e Cloudflare Anycast).
+    - Execução do Desafio Nível 2 dissecando registros cirúrgicos: `NS`, `AAAA`, `A` da Vercel e registros `TXT` (entendimento profundo de SPF contra spoofing e verificação de propriedade).
+  - **Virada Estratégica de Produto (O Mago Quântico):**
+    - Decisão de transformar o projeto em um produto original mantendo 100% da stack e rigor do curso.dev.
+    - Atualização do `package.json` (`o-mago-quantico`), `README.md` completo com manifesto, e criação da página "Em Construção" (`pages/index.js`) em modo escuro com design minimalista.
+    - Build de produção Next.js validado com sucesso e lint 100% aprovado.
+    - Fechamento da **Issue #3: Programar página de "Em construção"** via commit semântico (`d3cee7e feat: transforma projeto em O Mago Quantico e cria pagina em construcao (closes #3)`).
+    - Milestone 0 avançada para **66%** concluída.
+  - **Decisão Pragmática de Gestão (Issue #1 / Domínio):**
+    - Conscientemente optou-se por postergar a compra do domínio `.com.br` no Registro.br (R$ 40), mantendo a Issue #1 no backlog para o momento de lançamento final.
+    - Domínio gratuito e seguro com HTTPS da Vercel (`*.vercel.app`) atende perfeitamente à fase atual de desenvolvimento.
+- **Próxima Ação Imediata:**
+  - Iniciar o próximo grande marco do curso.dev: **Banco de Dados, Docker Compose e a primeira rota de API (`/api/v1/status`)**.
+
 ---
 
-_(Próximo agente: adicione a "Sessão 06" abaixo ao encerrar sua jornada!)_
+_(Próximo agente: adicione a "Sessão 07" abaixo ao encerrar sua jornada!)_
