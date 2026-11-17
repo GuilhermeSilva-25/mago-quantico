@@ -1,23 +1,36 @@
 function Home() {
   return (
-    <main style={styles.container}>
-      <div style={styles.card}>
-        <span style={styles.badge}>EM CONSTRUÇÃO</span>
-        <h1 style={styles.title}>O Mago Quântico</h1>
-        <p style={styles.subtitle}>
-          Onde a consciência, os símbolos e a informação moldam a realidade.
-        </p>
-        <hr style={styles.divider} />
-        <p style={styles.quote}>
-          "O observador altera o que é observado. O conhecimento profundo
-          transforma o caos em ordem."
-        </p>
-        <footer style={styles.footer}>
-          Portal colaborativo em desenvolvimento &bull; Baseado na engenharia do
-          curso.dev
-        </footer>
-      </div>
-    </main>
+    <>
+      <style>{`
+        * {
+          box-sizing: border-box;
+        }
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #0d1117;
+        }
+      `}</style>
+      <main style={styles.container}>
+        <div style={styles.card}>
+          <span style={styles.badge}>EM CONSTRUÇÃO</span>
+          <h1 style={styles.title}>O Mago Quântico</h1>
+          <p style={styles.subtitle}>
+            Onde a consciência, os símbolos e a informação moldam a realidade.
+          </p>
+          <hr style={styles.divider} />
+          <p style={styles.quote}>
+            "O observador altera o que é observado. O conhecimento profundo
+            transforma o caos em ordem."
+          </p>
+          <footer style={styles.footer}>
+            Portal colaborativo em desenvolvimento &bull; Baseado na engenharia do
+            curso.dev
+          </footer>
+        </div>
+      </main>
+    </>
   );
 }
 
