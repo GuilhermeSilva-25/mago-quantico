@@ -25,8 +25,8 @@ function Home() {
             transforma o caos em ordem."
           </p>
           <footer style={styles.footer}>
-            Portal colaborativo em desenvolvimento &bull; Baseado na engenharia do
-            curso.dev
+            Portal colaborativo em desenvolvimento &bull; Baseado na engenharia
+            do curso.dev
           </footer>
         </div>
       </main>
