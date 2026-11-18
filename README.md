@@ -32,4 +32,18 @@ O projeto é desenvolvido com o rigor arquitetural e as melhores práticas do [c
 
 ## 🧭 Status do Projeto
 
-Atualmente na **Milestone 0: Em construção**.
+Atualmente na **Milestone 1: Fundação** (Desenvolvimento da API e Testes Automatizados com Jest).
+
+---
+
+## 🧪 Como Rodar os Testes
+
+Com o servidor de desenvolvimento ativo (`npm run dev`), execute em outro terminal:
+
+```bash
+# Executa todos os testes automatizados
+npm test
+
+# Executa os testes no modo vigia contínuo (Modo Arqueiro)
+npm run test:watch
+```

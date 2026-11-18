@@ -47,25 +47,27 @@
 
 ## 🗺️ 3. Status da Jornada (Roadmap do curso.dev)
 
-| Módulo / Dia                       | Descrição                                                          | Status                              |
-| :--------------------------------- | :----------------------------------------------------------------- | :---------------------------------- |
-| **Dia 01. Ambiente Local**         | WSL 2, Ubuntu, Docker Engine nativo, NVM, Node LTS, Git            | ✅ **Concluído**                    |
-| **Dia 02. Setup do Projeto**       | `npm init -y`, `package.json`, Next.js do zero, `.gitignore`       | ✅ **Concluído**                    |
-| **Dia 03. Primeira Página**        | `pages/index.js`, Fast Refresh no `http://localhost:3000`          | ✅ **Concluído** (commit `932fd2f`) |
-| **Dia 04. Deploy Contínuo**        | Conta Vercel, integração GitHub e CD automático                    | ✅ **Concluído** (commit `52a2f26`) |
-| **Dia 05. Git a Fundo**            | Snapshots, Diffs, 3 Estágios e `git commit --amend`                | ✅ **Concluído** (commit `6c8a8f1`) |
-| **Dia 06. Git Remoto & Push**      | `git push`, `main` vs `origin/main`, `rebase` e `git push --force` | ✅ **Concluído** (commit `4d0c67f`) |
-| **Dia 07. Client/Server & Deploy** | Modelagem Client/Server, URLs imutáveis Vercel, Desafio 7.5        | ✅ **Concluído** (commit `ff50cc3`) |
-| **Dia 08. Mentalidade Técnica**    | Programação "Orgânica" vs "Impressora 3D", ciclos curtos           | ✅ **Concluído**                    |
-| **Dia 09. Gestão & Milestones**    | Minimalismo, quebra em tarefas, Milestones e Issues no GitHub      | ✅ **Concluído**                    |
-| **Dia 10. Estilização & Linter**   | EditorConfig, Prettier, Scripts lint e Issue #2 fechada            | ✅ **Concluído** (commit `a02b7fe`) |
-| **Dia 11. Teoria de DNS**          | Resolução da raiz ao autoritativo, `dig +trace`, Níveis 1 e 2      | ✅ **Concluído**                    |
-| **Dia 12. Domínio Próprio**        | Registro.br + Vercel (Issue #1 pausada temporariamente)            | ⏸️ **Pausado (Backlog)**            |
-| **Dia 13. Em Construção**          | Página do Mago Quântico no ar e Issue #3 fechada                   | ✅ **Concluído** (commit `d3cee7e`) |
-| **Próximo. Banco & Docker**        | Docker Compose PostgreSQL, variáveis de ambiente, `/api/v1/status` | ⏳ **A EXECUTAR**                   |
-| **Futuro. Banco & Migrations**     | Docker Compose PostgreSQL, `node-pg-migrate`                       | ⏳ Pendente                         |
-| **Futuro. Testes Automatizados**   | Jest, orquestração e GitHub Actions                                | ⏳ Pendente                         |
-| **Futuro. Core do TabNews**        | APIs, autenticação, posts e frontend completo                      | ⏳ Pendente                         |
+| Módulo / Dia                       | Descrição                                                              | Status                              |
+| :--------------------------------- | :--------------------------------------------------------------------- | :---------------------------------- |
+| **Dia 01. Ambiente Local**         | WSL 2, Ubuntu, Docker Engine nativo, NVM, Node LTS, Git                | ✅ **Concluído**                    |
+| **Dia 02. Setup do Projeto**       | `npm init -y`, `package.json`, Next.js do zero, `.gitignore`           | ✅ **Concluído**                    |
+| **Dia 03. Primeira Página**        | `pages/index.js`, Fast Refresh no `http://localhost:3000`              | ✅ **Concluído** (commit `932fd2f`) |
+| **Dia 04. Deploy Contínuo**        | Conta Vercel, integração GitHub e CD automático                        | ✅ **Concluído** (commit `52a2f26`) |
+| **Dia 05. Git a Fundo**            | Snapshots, Diffs, 3 Estágios e `git commit --amend`                    | ✅ **Concluído** (commit `6c8a8f1`) |
+| **Dia 06. Git Remoto & Push**      | `git push`, `main` vs `origin/main`, `rebase` e `git push --force`     | ✅ **Concluído** (commit `4d0c67f`) |
+| **Dia 07. Client/Server & Deploy** | Modelagem Client/Server, URLs imutáveis Vercel, Desafio 7.5            | ✅ **Concluído** (commit `ff50cc3`) |
+| **Dia 08. Mentalidade Técnica**    | Programação "Orgânica" vs "Impressora 3D", ciclos curtos               | ✅ **Concluído**                    |
+| **Dia 09. Gestão & Milestones**    | Minimalismo, quebra em tarefas, Milestones e Issues no GitHub          | ✅ **Concluído**                    |
+| **Dia 10. Estilização & Linter**   | EditorConfig, Prettier, Scripts lint e Issue #2 fechada                | ✅ **Concluído** (commit `a02b7fe`) |
+| **Dia 11. Teoria de DNS**          | Resolução da raiz ao autoritativo, `dig +trace`, Níveis 1 e 2          | ✅ **Concluído**                    |
+| **Dia 12. Domínio Próprio**        | Registro.br + Vercel (Issue #1 pausada temporariamente)                | ⏸️ **Pausado (Backlog)**            |
+| **Dia 13. Em Construção**          | Página do Mago Quântico no ar e Issue #3 fechada                       | ✅ **Concluído** (commit `d3cee7e`) |
+| **Dia 14. Arquitetura & Pastas**   | Inauguração da Milestone 1, MVC isolado e decisão anti-overengineering | ✅ **Concluído**                    |
+| **Dia 15. Testes Automatizados**   | Jest instalado, Modo Arqueiro, ciclo TDD e endpoint `/api/v1/status`   | ✅ **Concluído**                    |
+| **Dia 16. Próximo Passo**          | Respostas JSON, headers UTF-8, Docker Compose & PostgreSQL             | ⏳ **PRÓXIMO PASSO**                |
+| **Futuro. Banco & Migrations**     | Docker Compose PostgreSQL, `node-pg-migrate`                           | ⏳ Pendente                         |
+| **Futuro. Testes Automatizados**   | Jest, orquestração e GitHub Actions                                    | ⏳ Pendente                         |
+| **Futuro. Core do TabNews**        | APIs, autenticação, posts e frontend completo                          | ⏳ Pendente                         |
 
 ---
 
@@ -212,6 +214,24 @@
 - **Próxima Ação Imediata:**
   - Encerrar a Milestone 0 no GitHub (mantendo a Issue #1 de domínio no backlog) e iniciar o **Dia 14** do curso.dev (**Banco de Dados, Docker Compose e primeira rota de API `/api/v1/status`**).
 
+### Sessão 08 — 18/11/2026
+
+- **Tutor:** Antigravity (Tutor curso.dev)
+- **O que foi feito:**
+  - **Módulo / Dia 14 (Inauguração da Milestone 1 & Proposta de Arquitetura):**
+    - Criação das 9 issues da **Milestone 1: Fundação** no repositório GitHub.
+    - Análise técnica criteriosa sobre TypeScript vs JavaScript no momento atual: decisão de manter **JavaScript puro** para evitar _overengineering_ (Aula 14.3), eliminar burocracia de transpilação em ferramentas de infraestrutura (Jest, drivers SQL e migrations) e focar na carga cognitiva central da fundação.
+    - Definição formal do padrão **MVC desacoplado** (`pages/` como Views, `pages/api/` como Controllers, `models/` como regras de negócio puras, `infra/` para banco/migrations e `tests/` para blindagem), mantendo o princípio da criação orgânica de pastas.
+  - **Módulo / Dia 15 (Testes Automatizados, Jest & Modo Arqueiro):**
+    - Instalação do Jest em `devDependencies` e configuração dos scripts `test` e `test:watch` no `package.json`, commitado de forma atômica e profissional.
+    - Experimento didático com o "Teste de Teste": validação do PASS em verde e forçamento intencional do FAIL em vermelho para assimilar a leitura de discrepâncias do Jest (`Expected` vs `Received`) e o conceito do **Modo Arqueiro**.
+    - Criação do primeiro "Teste de Verdade" em `tests/integration/api/v1/status/get.test.js` com requisição HTTP real via `fetch`.
+    - Execução impecável do ciclo **TDD (Red-Green)**:
+      - **Red:** Servidor respondeu com status 404 (provando que o teste é real e funcional).
+      - **Green:** Implementação do primeiro Controller em `pages/api/v1/status/index.js` retornando status 200, validado com sucesso em 438ms.
+- **Próxima Ação Imediata:**
+  - Iniciar o **Dia 16** do curso.dev: evolução do endpoint `/api/v1/status` (respostas JSON estruturadas, headers com charset UTF-8) e preparação da infraestrutura de banco de dados com **PostgreSQL + Docker Compose**.
+
 ---
 
-_(Próximo agente: adicione a "Sessão 08" abaixo ao encerrar sua jornada!)_
+_(Próximo agente: adicione a "Sessão 09" abaixo ao encerrar sua jornada!)_
